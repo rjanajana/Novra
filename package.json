@@ -1,0 +1,18 @@
+{
+  "name": "novra-x-emote-bot",
+  "version": "2.0.0",
+  "description": "NOVRA X Emote Bot Control Panel - Vercel Edition",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "vercel --prod"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
