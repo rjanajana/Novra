@@ -441,7 +441,7 @@ async function sendEmoteInstantly(emoteId, cardElement) {
     }
     
     // ✅ STEP 4: BUILD URL (single operation)
-    const url = `/.netlify/functions/send-emote?${params.toString()}`;
+    const url = `/api/send-emote?${params.toString()}`;
     
     console.log('🌐 API URL Ready:', url);
     
